@@ -5,9 +5,8 @@ modDatetime: 2025-03-12T12:28:53Z
 title: How to integrate Giscus comments into AstroPaper
 slug: how-to-integrate-giscus-comments
 featured: false
-draft: false
+draft: true
 tags:
-  - astro
   - blog
   - docs
 description: Comment function on a static blog hosted on GitHub Pages with Giscus.
