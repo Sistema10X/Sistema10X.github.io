@@ -23,7 +23,7 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
   },
-  {
+ /* {
     name: "X",
     href: "https://x.com/username",
     linkTitle: `${SITE.title} on X`,
@@ -35,6 +35,7 @@ export const SOCIALS: Social[] = [
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
+  */
   {
     name: "Mail",
     href: "mailto:10xviagens@10xviagens.com",
@@ -68,12 +69,14 @@ export const SHARE_LINKS: Social[] = [
     linkTitle: `Share this post via Telegram`,
     icon: IconTelegram,
   },
+  /*
   {
     name: "Pinterest",
     href: "https://pinterest.com/pin/create/button/?url=",
     linkTitle: `Share this post on Pinterest`,
     icon: IconPinterest,
   },
+  */
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
