@@ -5,10 +5,11 @@ title: "teste DATA"
 slug: data-test
 featured: false
 #ogImage: https://avatars.githubusercontent.com/u/279110288?v=4&size=64
+draft: true
 description: teste em data e featured false
 tags: ['agente', 'turismo', 'backoffice']
 ---
 
-# Teste
-haha testei
->uuuh
+# Rascunho
+Aqui neste diretório Data ele não aparece no site.
+>se apenas deixar o draft true ele acaba aparecendo, ao menos em um dos testes.

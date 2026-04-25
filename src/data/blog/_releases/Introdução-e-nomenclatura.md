@@ -12,7 +12,7 @@ tags:
 description: Conheça o mundo das agências de viagem. Neste documento você verá introdução, familiarização e nomenclaturas importantes para se tornar um agente de viagem.
 ---
 
-> Para marinheiros de primeira viagem no mundo das agências de viagem
+> Para marinheiros de primeira viagem no mundo do agenciamento turístico
 
 # Sumário
 
@@ -28,9 +28,9 @@ description: Conheça o mundo das agências de viagem. Neste documento você ver
 
 > Conheça um novo mundo sem complicação
 
-Bem-vindo ao setor de agenciamento turístico. O mundo das viagens vai muito além de simplesmente emitir uma passagem ou reservar um hotel. Trata-se de um ecossistema complexo e dinâmico, composto por dezenas de fornecedores, regras tarifárias rígidas e perfis de clientes exigentes. 
+O mundo das viagens vai muito além de simplesmente emitir uma passagem ou reservar um hotel. Trata-se de um ecossistema complexo e dinâmico, composto por dezenas de fornecedores, regras tarifárias rígidas e perfis de clientes exigentes. 
 
-Neste manual, você entenderá que o agente moderno não é um "tirador de pedidos", mas sim um **consultor especializado**. É preciso dominar processos, entender a malha de fornecedores, aplicar taxas corretamente e, acima de tudo, garantir que o passageiro tenha uma experiência fluida, segura e inesquecível, seja em uma viagem de férias ou em um compromisso de negócios crítico.
+Neste manual, você entenderá que o agente não é um "robô de pedidos", mas sim um **consultor especializado**. É preciso dominar processos, entender a malha de fornecedores, entender a aplicação de taxas corretamente e, acima de tudo, garantir que o passageiro tenha uma experiência fluida, segura e inesquecível, seja em uma viagem de férias ou em um compromisso de negócios crítico.
 
 ---
 
