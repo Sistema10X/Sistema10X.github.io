@@ -2,9 +2,13 @@
 author: Matheus Laidler
 pubDatetime: 2026-04-24T15:57:52.737Z
 title: "Introdução ao básico para um Agente de Viagem - Parte 1"
-slug: manual-wintour
+slug: agente-basico
 featured: false
-draft: true
+draft: false
+tags:
+  - agente
+  - turismo
+  - backoffice
 description: Conheça o mundo das agências de viagem. Neste documento você verá introdução, familiarização e nomenclaturas importantes para se tornar um agente de viagem.
 ---
 

@@ -6,6 +6,7 @@ slug: manual-wintour
 featured: false
 #ogImage: https://avatars.githubusercontent.com/u/279110288?v=4&size=64
 description: Domine o básico da ferramenta de BackOffice com este Manual.
+tags: ['agente', 'turismo', 'backoffice', 'wintour']
 ---
 
 >Consiga utilizar o sistema de BackOffice Wintour através desse manual
