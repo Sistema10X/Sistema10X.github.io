@@ -10,6 +10,32 @@ description: Domine o básico da ferramenta de BackOffice com este Manual.
 
 >Consiga utilizar o sistema de BackOffice Wintour através desse manual
 
+## Sumário
+
+* [1. Criação de Usuário](#1-criação-de-usuário)
+* [2. Criação de Emissores](#2-emissores)
+    * [Padrão de Comissionamento](#definindo-padrões-de-comissionamento)
+* [3. Cadastro de Clientes](#3-clientes)
+    * [Prazos de Recebimento (Parametrizações)](#prazos-de-recebimento-clientes-corporativos)
+    * [Descontos para Clientes](#descontos-para-clientes)
+* [4. Cadastro de Fornecedores](#4-fornecedores)
+    * [Regras de Faturamento (Parametrizações)](#regras-de-negócio-e-faturamento-parametrizações)
+    * [Configurando o Calendário de Prazos](#configurando-o-calendário-de-prazos-ex-rextur-advance-e-brt)
+    * [Configurando Prazos Padrões](#configurando-prazos-padrões-ex-bestbuy)
+* [5. Criação de Vendas](#5-vendas)
+    * [Importar Vendas (Integração)](#vendas-integradas-importação)
+    * [Vendas Manuais](#vendas-manuais)
+    * [Documentação para o Cliente](#documentação-pronta-e-manual)
+* [6. Lembretes e Alertas](#6-lembretes)
+* [7. Financeiro](#7-financeiro)
+    * [Contas a Pagar e Receber](#contas-a-pagar-e-receber)
+    * [Despesas da Agência](#lançamento-de-contas-fixas-despesas-da-agência)
+    * [Abertura de Saldo & Movimento Bancário](#abertura-de-saldo--movimento-bancário)
+* [8. Relatórios Gerais](#8-relatórios)
+    * [Relatórios de Vendas (Gerencial)](#exemplos-úteis-de-relatórios-de-vendas)
+    * [Relatórios Financeiros](#relatórios-financeiros)
+
+
 ---
 
 ## 1. Criação de Usuário
@@ -83,9 +109,11 @@ Esta é a parte mais importante. O fornecedor deve repassar o calendário de pag
 Se o fornecedor envia um calendário semestral de pagamentos:
 1.  Vá em **Cadastros > Parametrização > Diversos > Calendário de Prazos > Incluir**.
 2.  Crie uma sigla (ex: `RE` para Rextur).
-3.  Cadastre os períodos: Início (01/04) - Fim (08/04) - Vencimento (14/04). Salve.
+3.  Cadastre os períodos: Início (01/04) - Fim (08/04) - Vencimento (14/04) [...]. Salve.
 4.  Volte ao cadastro do fornecedor > **Parametrizações > Prazos pagamento fornecedores > Incluir**.
 5.  Insira o código `CL` (Calendário) + a sigla criada (`RE`) = `CLRE`.
+
+O calendário da [CVC Corp/Rextur Advance](https://www.rexturadvance.com.br/calendario-de-faturamento/) e da [BRT](https://news.grupobrt.com.br/pagina/grupo-brt/calendario-de-faturamento-aereo-brt-2026/63/) de 2026 que recebemos em link tem todo o calendário específico deles, que copiaremos dentro do wintour.
 
 **Configurando Prazos Padrões (Ex: BestBuy):**
 Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o processo é mais simples:
@@ -108,14 +136,18 @@ Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o proc
 **Resolução de Problemas na Importação:**
 * 🔴 **Ícone Vermelho (Erro):** Falta vincular um emissor, cadastrar uma cia aérea ou configurar câmbio. Clique na venda com erro e verifique a mensagem em vermelho no rodapé para corrigir. *(Atenção: Se cadastrar um novo emissor nesta etapa, lembre-se de configurar a comissão dele. Depois, abra a venda, aperte **[F5]** e **[F6]** para recalcular a comissão).*
 * 🟡 **Ícone Amarelo (Observação):** Exige atenção manual, como alterar o Cliente Padrão de Interface para o cliente real.
+* **Importar as vendas**: Após resolver as problemáticas e visualizar os avisos/observações, pode clicar em **Lançar Bilhetes** para importar as vendas. Caso as vendas forem importadas como Cliente Padrão de Interface de forma transitória, vá até a aba de Venda e atribua o cliente real desta Venda. Podendo criar pela *lupa* em Clientes *>* *Cadastrar Novo* ou procurar o cliente se já cadastrado.
 
 **Ajuste de Over da Agência:**
-Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > **Configurações (ícone de lápis)** > **Over agência** e selecione a opção `1 - Prevalece sempre o que vier na interface`.
+Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > **Configurações (ícone de lápis)** > **Over agência** e selecione a opção `1 - Prevalece sempre o que vier na interface`. Se der tela de ERROR pedindo atualizar, basta ir em **Outros** > **Atualizar Versão**.
 
-**Vendas Manuais & Documentação:**
-* Para vendas manuais, preencha os dados em **Atendimentos/Vendas > Vendas > Incluir [F3]**.
-* **Vouchers e Recibos:** Na aba da venda, clique em **Resumo** para gerar a documentação (recibos apenas para vendas fechadas).
-* Para emissões avulsas de documentos, vá em **Atendimentos/Vendas > Utilitários > Recibos / Voucher / Fatura (Série B)**.
+**Vendas Manuais**
+* Para vendas manuais, preencha os dados em **Atendimentos/Vendas > Vendas > Incluir [F3]**. Basta preencher todos os dados de forma fiel a venda real. Campos de calculo como comissão podem ser gerados sozinho ao salvar, se já configurou nos passos anteriores. Caso não aconteça, preencher manualmente.
+
+**Documentação Pronta e Manual**
+* **Recibos:** Na aba da venda, clique em **Resumo** para gerar documentações como notas, recibos para vendas fechadas, entre outros. 
+* **Voucher:** Na aba de venda, clique em **Voucher** para gerar a documentação para seu cliente (será sempre relacionado ao tipo de produto vendido).
+* Para emissões avulsas de documentos, vá em **Atendimentos/Vendas > Utilitários > Recibos / Voucher / Fatura (Série B)**. Caso a venda não esteja fechada, mas precisa entregar um recibo para o seu Cliente, basta preencher manualmente esse **Recibo Série B** e gerar a documentação rapidamente.
 
 ---
 
