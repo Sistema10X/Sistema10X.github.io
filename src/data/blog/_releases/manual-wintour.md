@@ -117,43 +117,42 @@ Na tabela do emissor, clique no botão **(+)** para aplicar uma regra existente 
 
 ## 3. Clientes
 
-* **Acesso:** Vá em **Cadastros > Clientes**. 
+* **Acesso:** Vá em **Cadastros > Clientes**. 
 
-  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/ae2eca67-a1f2-48b1-b530-44794b613cd6" />
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/ae2eca67-a1f2-48b1-b530-44794b613cd6" />
 
-  *(Dica: Use a tecla **[F8]** para localizar e digite `*` para listar todos os cadastrados).*
+  *(Dica: Use a tecla **[F8]** para localizar e digite `*` para listar todos os cadastrados).*
 
 ### Cliente Padrão de Interfaces:
 Este é um cadastro transitório do Wintour. Ao importar uma venda, ela será atrelada a este cliente temporário, exigindo que você a vincule manualmente ao cliente real (físico ou corporativo) posteriormente na aba `Vendas`.
 
-   <img width="40%" alt="image" src="https://github.com/user-attachments/assets/5da05ee2-6323-427e-bf07-f0fa59bc165c" />
+   <img width="40%" alt="image" src="https://github.com/user-attachments/assets/5da05ee2-6323-427e-bf07-f0fa59bc165c" />
 
 ### Cadastrando um Cliente:
-1.  Clique em **Incluir [F3]** (Pessoa Física ou Jurídica).
-2.  Preencha o formulário e clique em **Salvar [F6]**. Os campos de baixo, como cartão de crédito e Dependêntes, só poderão ser preenchidos após este primeiro *save*.
-3.  **Dependentes:** Utilize esta aba para unificar faturamentos. Se houver apenas um pagador, cadastre os viajantes (cônjuge, filhos) como dependentes. Se houver pagadores distintos, crie clientes separados.
+1.  Clique em **Incluir [F3]** (Pessoa Física ou Jurídica).
+2.  Preencha o formulário e clique em **Salvar [F6]**. Os campos inferiores, como Cartão de Crédito e Dependentes, só poderão ser preenchidos após este primeiro *save*.
+3.  **Dependentes:** Utilize esta aba para unificar faturamentos. Se houver apenas um pagador, cadastre os viajantes (cônjuge, filhos) como dependentes. Se houver pagadores distintos, crie clientes separados.
 
-    <img width="25%" alt="image" src="https://github.com/user-attachments/assets/9abbe719-81e0-4a18-8faa-06f1fc692ac3" />
+    <img width="25%" alt="image" src="https://github.com/user-attachments/assets/9abbe719-81e0-4a18-8faa-06f1fc692ac3" />
 
 ### Prazos de Recebimento (Clientes Corporativos):
-Se a agência envia faturas semanais para empresas, configure a regra de faturamento:
+Se a agência envia faturas semanais (ou em períodos específicos) para empresas, configure a regra de faturamento:
 
-   <img width="35%" alt="image" src="https://github.com/user-attachments/assets/b04ec75d-8de4-4102-84fd-24b04f7a37ea" />
+   <img width="35%" alt="image" src="https://github.com/user-attachments/assets/b04ec75d-8de4-4102-84fd-24b04f7a37ea" />
 
 * Vá em **Parametrização > Prazos Recebimentos Clientes > Incluir**.
-* Crie um código, como `03FS` (3 dias fora da semana).
+* Crie um código, como `03FS` (3 dias fora da semana). Se quiser a cada 10 dias, pode usar `10FD`.
 * Defina se o prazo conta a partir da emissão, do início ou do final dos serviços.
-  
-    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/dd6814d3-5594-4a9e-a5c0-1316fa83747c" />
-
+* **Suporte Wintour:** Caso tenha dúvidas sobre como estruturar os códigos de prazo, você pode acionar o suporte através do WhatsApp: `+55 24 98128-5315`.
+  
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/dd6814d3-5594-4a9e-a5c0-1316fa83747c" />
 
 ### Descontos para Clientes:
-
 Para configurar descontos automáticos (ex: x% de desconto para todas as emissões de um cliente corporativo):
 * Vá em **Parametrização > Descontos Clientes > Incluir**.
 * Defina o percentual e a base de cálculo (tarifa, comissão, over, taxa RAV, fee, etc.).
 
-    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/268a6cdb-1343-4057-8303-1fcc823dbb35" />
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/268a6cdb-1343-4057-8303-1fcc823dbb35" />
 
 ---
 
@@ -209,51 +208,51 @@ Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o proc
 ## 5. Vendas
 
 ### Vendas Integradas (Importação):
-1.  Vá em **Atendimentos/Vendas > Interfaces**.
+1.  Vá em **Atendimentos/Vendas > Interfaces**.
+2.  Selecione o fornecedor e clique na estrela para favoritar. Agora clique em cima do fornecedor e depois em **Importar vendas**.
 
-2.  Selecione o fornecedor, clique na estrela para favoritar. Agora clique em cima do fornecedor e depois em **Importar vendas**.
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/8457185d-7465-415d-8816-0fcdcc23d580" />
 
-    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/8457185d-7465-415d-8816-0fcdcc23d580" />
+3.  Insira as credenciais (clique no ícone de chave para salvá-las e automatizar os próximos acessos), datas e produtos.
 
-3.  Insira as credenciais (clique no ícone de chave para salvá-las e automatizar os próximos acessos), datas e produtos.
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/1fad11d5-877e-436c-836b-45510ac2323f" />
 
-    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/1fad11d5-877e-436c-836b-45510ac2323f" />
+    > Alguns sistemas pedirão para especificar o tipo de fornecedor e a API:
+    > * **Operadora:** Focada em montagem de pacotes prontos para revenda.
+    > * **Consolidadora:** Empresa que agrega várias cias aéreas para você não precisar comprar direto com a LATAM, Azul, etc.
+    > * **Exemplo BRT:** Para importar as vendas, escolha a opção `Consolidadora` e `API Sales` para então inserir as credenciais.
 
-    > Alguns podem pedir o tipo de fornecedor (Operadora X Consolidadora) e tipo da API.
-    
-    - Importar as vendas da **BRT**, por exemplo, terá de escolher a opção `Consolidadora` e `API Sales`, para então podermos seguir para as credenciais.
+4.  Preencha de qual dia vai importar as vendas e de quais produtos. Após isso, clique em **Importar**.
 
-4.  Com as credenciais inseridas, poderá colocar de qual dia vai importar as vendas e de quais produtos. Após isso, basta clicar em `Importar.
-
-     <img width="30%" alt="image" src="https://github.com/user-attachments/assets/34f9315a-d08f-4b43-9fda-a3f4fec7054a" />
+     <img width="30%" alt="image" src="https://github.com/user-attachments/assets/34f9315a-d08f-4b43-9fda-a3f4fec7054a" />
 
 ### Resolução de Problemas na Importação:
 * 🔴 **Ícone Vermelho (Erro):** Falta vincular um emissor, cadastrar uma cia aérea ou configurar câmbio. Clique na venda com erro e verifique a mensagem em vermelho no rodapé para corrigir.
-   > *Se cadastrar um novo emissor nesta etapa, lembre-se de configurar a comissão dele. Depois, abra a venda, aperte **[F5]** e **[F6]** para recalcular a comissão.*
-* 🟡 **Ícone Amarelo (Observação):** Exige atenção manual, como por exemplo alterar o Cliente Padrão de Interface para o cliente real ou confirmação do Emissor atrelado a venda.
-* **Importar as vendas**: Após resolver as problemáticas e visualizar os avisos/observações, pode clicar em **Lançar Bilhetes** para importar as vendas.
+   > *Se cadastrar um novo emissor nesta etapa, lembre-se de configurar a comissão dele no menu Cadastros. Depois, abra a venda importada, aperte **[F5]** e **[F6]** para que o sistema recalcule a comissão corretamente.*
+* 🟡 **Ícone Amarelo (Observação):** Exige atenção manual. Exemplos comuns:
+    * **Cliente Padrão:** A venda caiu no cliente genérico de interface e precisará ser atrelada ao cliente real.
+    * **Emissor Padrão:** O emissor da agência foi vinculado incorretamente ao padrão de interfaces.
+* **Importar as vendas:** Após resolver os erros e conferir os alertas amarelos, clique em **Lançar Bilhetes** para finalizar a importação.
+* **Dica de Conferência:** Abra a aba `Atendimento/Vendas > Vendas` para visualizar a última venda importada. Confira se a data de Vencimento do fornecedor está de acordo com o calendário que você configurou (Ex: Venda emitida dia 13/04 com vencimento automático para 22/04).
 
-   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/1e05ef8b-c096-40a2-8d81-a16cf77837fb" />
+   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/1e05ef8b-c096-40a2-8d81-a16cf77837fb" />
 
-> Caso as vendas forem importadas como Cliente Padrão de Interface de forma transitória, vá até a aba de Venda e atribua o cliente real desta Venda. Podendo criar pela *lupa* em Clientes *>* *Cadastrar Novo* ou procurar o cliente se já cadastrado.
-
+* **Corrigindo o vínculo do Emissor Padrão (caso específico):** Se um emissor da sua agência ficou vinculado ao padrão de interfaces, volte na tela de importação / interface do fornecedor, clique em **Relacionamentos** (ao lado de Configurações) > **Emissores**. Localize o emissor na lista e delete o vínculo errado.
 
 ### Ajuste de Over da Agência:
-Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > **Configurações (ícone de lápis)** > **Over agência** e selecione a opção `1 - Prevalece sempre o que vier na interface`. Se der tela de ERROR pedindo atualizar, basta ir em **Outros** > **Atualizar Versão**.
+Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > **Configurações (ícone de lápis)** > **Over agência** e selecione a opção `1 - Prevalece sempre o que vier na interface`. Se der tela de ERRO pedindo para atualizar, vá em **Outros > Atualizar Versão**.
 
 ### Vendas Manuais
-* Para vendas manuais, preencha os dados em **Atendimentos/Vendas > Vendas > Incluir [F3]**. Basta preencher todos os dados de forma fiel a venda real. Campos de calculo como comissão podem ser gerados sozinho ao salvar, se já configurou nos passos anteriores. Caso não aconteça, preencher manualmente.
-  
-  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/5e6d619b-6e60-48e0-a1da-fd06229dd043" />
-
+* Para vendas manuais, preencha os dados em **Atendimentos/Vendas > Vendas > Incluir [F3]**. Basta preencher todos os dados de forma fiel à venda real. Campos de cálculo como comissão podem ser gerados sozinhos ao salvar, se você já configurou as regras. Caso contrário, preencha manualmente.
+  
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/5e6d619b-6e60-48e0-a1da-fd06229dd043" />
 
 ### Documentação Pronta e Manual
-* **Recibos:** Na aba da venda, clique em **Resumo** para gerar documentações como notas, recibos para vendas fechadas, entre outros. 
-* **Voucher:** Na aba de venda, clique em **Voucher** para gerar a documentação para seu cliente (será sempre relacionado ao tipo de produto vendido).
-* Para emissões avulsas de documentos, vá em **Atendimentos/Vendas > Utilitários > Recibos / Voucher / Fatura (Série B)**. Caso a venda não esteja fechada, mas precisa entregar um recibo para o seu Cliente, basta preencher manualmente esse **Recibo Série B** e gerar a documentação rapidamente.
+* **Recibos:** Na aba da venda, clique em **Resumo** para gerar documentações como notas e recibos para vendas fechadas. 
+* **Voucher:** Na aba de venda, clique em **Voucher** para gerar a documentação para seu cliente (o modelo será relacionado ao tipo de produto vendido).
+* Para emissões avulsas (ex: a venda ainda não está fechada, ou precisa recriar um voucher rapidamente), vá em **Atendimentos/Vendas > Utilitários > Recibos / Voucher / Fatura (Série B)**. Preencha manualmente os dados e gere a documentação.
 
-  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/19b43b8e-22e4-468f-a8f1-5cb427f86f80" />
-
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/19b43b8e-22e4-468f-a8f1-5cb427f86f80" />
 
 ---
 
@@ -263,11 +262,12 @@ A tela inicial do sistema (ou **Outros > Lembretes**) funciona como uma central 
 
 * **Configurações:** Em **Opções > Configurações**, você pode marcar/desmarcar o tipo de aviso que deseja receber e definir a antecedência dos alertas (ex: lembrar do check-in X dias antes).
 
-  <img width="15%" alt="image" src="https://github.com/user-attachments/assets/9dbbffd3-4f65-471b-b8a5-9d40aca63bf3" />
-  
-* **Relatórios Rápidos:** Ao clicar em um lembrete (ex: "Há 22 embarques em 15/04"), o sistema gera um relatório analítico completo com cliente, bilhete, localizador, status e horários dos voos.
+  <img width="15%" alt="image" src="https://github.com/user-attachments/assets/9dbbffd3-4f65-471b-b8a5-9d40aca63bf3" />
+  
+* **Lembretes Manuais:** Além dos lembretes automáticos, você pode criar lembretes manuais diretamente na tela inicial ou dentro da própria página de uma venda, caso o aviso seja específico para aquele atendimento.
+* **Relatórios Rápidos:** Ao clicar em um lembrete automático (ex: "Há 22 embarques em 15/04"), o sistema gera e abre na tela um relatório analítico completo daquela situação, organizando os dados por cliente, passageiro, bilhete, localizador, status da venda, conexões e horários exatos dos voos. A partir dessa lista, você pode até mesmo clicar para abrir a venda relacionada.
 
-  <img width="45%"  alt="image" src="https://github.com/user-attachments/assets/9c2e4495-f107-456a-b579-80648d7ccc85" />
+  <img width="45%"  alt="image" src="https://github.com/user-attachments/assets/9c2e4495-f107-456a-b579-80648d7ccc85" />
 
 ---
 
