@@ -44,8 +44,23 @@ tags: ['agente', 'turismo', 'backoffice', 'wintour']
 Para cadastrar novos acessos no sistema, siga o caminho abaixo:
 
 * **Acesso:** Vá em **Outros > Senhas e Acessos > Configurações Gerais**.
-* **Novo Cadastro:** Clique em **Incluir [F3]** para criar o login do novo usuário.
+  
+    <img width="25%" height="317" alt="image" src="https://github.com/user-attachments/assets/7ba9c7e9-069b-4941-bcf5-0ebfbaa511b5" />
+
+* **Novo Cadastro:** Clique em **Incluir [F3]** para criar o login do novo usuário. 
+  
+    <img width="30%" alt="image" src="https://github.com/user-attachments/assets/34343ff1-a601-46e4-b726-c951077ef951" />
+
+    Após criar usuário e clicar em salvar, uma janela com opção de tirar todas as permissões, deixar todas as permissões selecionadas ou clonar uma configuração de permissão de outro usuário já configurado irá aparecer. Basta escolher e salvar.
+
 * **Permissões:** Configure os acessos por filial e ajuste as permissões conforme o cargo.
+
+  <img width="462" alt="image" src="https://github.com/user-attachments/assets/d7f6e1eb-f444-4031-92bd-85371d27a704" />
+  
+  Após criar o usuário, precisa configurar corretamente as permissões do usuário de forma individual. Ao clicar para configurar por filial, terá todas as permissões para configurar. O 'Assistente' abrirá a mesma janela de opções sobre selecionar tudo, desmarcar tudo ou clonar de outro usuário.
+  
+  <img width="462" alt="image" src="https://github.com/user-attachments/assets/641d5ebf-e9ac-4197-abf8-1ca933969768" />
+  
 
 > **Nota:** O número de usuários no sistema é ilimitado, mas a quantidade de máquinas conectadas depende do plano contratado.
 
@@ -56,44 +71,89 @@ Para cadastrar novos acessos no sistema, siga o caminho abaixo:
 Nesta seção, cadastraremos os emissores da agência (agentes de viagens, vendedores, etc.).
 
 * **Acesso:** Vá em **Cadastros > Parametrização > Emissores/Promotores/Gerentes > Emissores**.
+  
+  <img width="35%" alt="image" src="https://github.com/user-attachments/assets/fe712900-b46e-47fe-b74b-c5dee850b282" />
+
 * **Emissor Padrão de Interfaces:** Serve para a importação de vendas. Caso a consolidadora/operadora envie o nome do próprio funcionário deles em vez do seu emissor, o sistema fará o relacionamento automático usando este cadastro padrão.
 
 ### Criando um Novo Emissor:
+
 1.  Clique em **Incluir [F3]**.
+
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/ead3269a-a3ae-488b-82de-622f6a260a06" />
+   
 2.  **Prazos a Pagar:** Para emissores comissionados com data fixa de pagamento, configure este campo. Por exemplo, o código `05MS` programa o pagamento para o dia 5 de cada mês (use o ícone de lupa para consultar outros códigos).
+
 3.  **Configurar Comissionamento:** Defina se o comissionamento será para Vendedor (emitiu a venda), Promotor (trouxe o cliente) ou Gerente (gestão de equipe). É possível acumular essas funções.
 
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/7b49e78c-7d08-49ff-8e10-297005947e0b" />
+
 ### Definindo Padrões de Comissionamento:
-Na tabela do emissor, clique no botão **(+)** para aplicar uma regra existente ou crie uma nova:
+
+Na tabela do emissor, clique no botão **(+)** para aplicar uma regra existente ou crie uma nova (principalmente caso seja a primeira vez)
+
+   <img width="35%" alt="image" src="https://github.com/user-attachments/assets/5462cf93-544a-48ac-b080-0327ad10acc3" />
+   
 1.  Clique em **Definir/Alterar padrões de comissionamento** > **Insere novo padrão**.
+
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/f8a73ee1-c703-47c5-906d-d001f0d3c4af" />
+
 2.  **Filtros:** Especifique o padrão por produto (passagem, hotel, etc.), fornecedor, cliente ou companhia aérea. Se deixar em branco, a regra valerá para tudo.
+
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/bdd6d264-7e24-4ab4-a1e5-e719718bbd7f" />
+
+
 3.  **Base de Cálculo:** Insira o percentual e a base de incidência (geralmente a opção `45 - Líquido Agência`). O sistema também aceita valores fixos ou fórmulas especiais.
-4.  **Clonar Configuração:** Para não repetir o processo em todos os funcionários, clique em **Clonar Configuração**, selecione o emissor de origem, os emissores de destino e confirme clicando no botão central.
+
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/dc004c13-fe94-4ed5-a7c5-51d324a78845" />
+
+4. **Salvar**: Salve essa configuração e agora poderá clicar em **(+)** no campo de emissores e selecionar o padrão de comissão que criamos agora
+
+5.  **Clonar Configuração:** Para não repetir o processo em todos os funcionários, clique em **Clonar Configuração** no menu superior, selecione o emissor de origem, os emissores de destino e confirme clicando no botão central.
+
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/3ee15124-6ca7-4c00-ac4f-c193cdd79c9f" />
 
 ---
 
 ## 3. Clientes
 
-* **Acesso:** Vá em **Cadastros > Clientes**. *(Dica: Use a tecla **[F8]** para localizar e digite `*` para listar todos os cadastrados).*
+* **Acesso:** Vá em **Cadastros > Clientes**. 
+
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/ae2eca67-a1f2-48b1-b530-44794b613cd6" />
+
+  *(Dica: Use a tecla **[F8]** para localizar e digite `*` para listar todos os cadastrados).*
 
 ### Cliente Padrão de Interfaces:
-Este é um cadastro transitório do Wintour. Ao importar uma venda, ela será atrelada a este cliente temporário, exigindo que você a vincule manualmente ao cliente real (físico ou corporativo) posteriormente.
+Este é um cadastro transitório do Wintour. Ao importar uma venda, ela será atrelada a este cliente temporário, exigindo que você a vincule manualmente ao cliente real (físico ou corporativo) posteriormente na aba `Vendas`.
+
+   <img width="40%" alt="image" src="https://github.com/user-attachments/assets/5da05ee2-6323-427e-bf07-f0fa59bc165c" />
 
 ### Cadastrando um Cliente:
 1.  Clique em **Incluir [F3]** (Pessoa Física ou Jurídica).
-2.  Preencha o formulário completo e clique em **Salvar [F6]**.
+2.  Preencha o formulário e clique em **Salvar [F6]**. Os campos de baixo, como cartão de crédito e Dependêntes, só poderão ser preenchidos após este primeiro *save*.
 3.  **Dependentes:** Utilize esta aba para unificar faturamentos. Se houver apenas um pagador, cadastre os viajantes (cônjuge, filhos) como dependentes. Se houver pagadores distintos, crie clientes separados.
+
+    <img width="25%" alt="image" src="https://github.com/user-attachments/assets/9abbe719-81e0-4a18-8faa-06f1fc692ac3" />
 
 ### Prazos de Recebimento (Clientes Corporativos):
 Se a agência envia faturas semanais para empresas, configure a regra de faturamento:
+
+   <img width="35%" alt="image" src="https://github.com/user-attachments/assets/b04ec75d-8de4-4102-84fd-24b04f7a37ea" />
+
 * Vá em **Parametrização > Prazos Recebimentos Clientes > Incluir**.
 * Crie um código, como `03FS` (3 dias fora da semana).
 * Defina se o prazo conta a partir da emissão, do início ou do final dos serviços.
+  
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/dd6814d3-5594-4a9e-a5c0-1316fa83747c" />
+
 
 ### Descontos para Clientes:
+
 Para configurar descontos automáticos (ex: x% de desconto para todas as emissões de um cliente corporativo):
 * Vá em **Parametrização > Descontos Clientes > Incluir**.
 * Defina o percentual e a base de cálculo (tarifa, comissão, over, taxa RAV, fee, etc.).
+
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/268a6cdb-1343-4057-8303-1fcc823dbb35" />
 
 ---
 
@@ -103,18 +163,37 @@ Muitas vezes, não é necessário preencher o cadastro completo de um fornecedor
 
 * **Acesso:** Vá em **Cadastros > Fornecedores > Incluir** ou **Localizar [F8]**.
 
+  <img width="50%" alt="image" src="https://github.com/user-attachments/assets/d1fed200-8cce-4ff3-9532-52dfd0b760af" />
+
+> **Dica:** Nesta mesma aba sobre cadastro de Fornecedores, você também já pode cadastrar as empresas que prestam serviços para a agência (provedores de internet, aluguel, etc.) para uso futuro no financeiro.
+
 ### Regras de Negócio e Faturamento (Parametrizações):
 Esta é a parte mais importante. O fornecedor deve repassar o calendário de pagamentos e a regra de comissionamento. Como as vendas integradas já importam a comissão automaticamente, o foco principal é configurar os **prazos de vencimento**.
 
 ### Configurando o Calendário de Prazos (Ex: Rextur Advance e BRT):
+
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/bacd2bc2-ecbc-47ed-8848-53a46bb037f0" />
+
 Se o fornecedor envia um calendário semestral de pagamentos:
+
+
 1.  Vá em **Cadastros > Parametrização > Diversos > Calendário de Prazos > Incluir**.
+
+    <img width="45%" alt="image" src="https://github.com/user-attachments/assets/8a52d34d-454d-47b7-86b4-0660d65880dc" />
+
 2.  Crie uma sigla (ex: `RE` para Rextur).
 3.  Cadastre os períodos: Início (01/04) - Fim (08/04) - Vencimento (14/04) [...]. Salve.
-4.  Volte ao cadastro do fornecedor > **Parametrizações > Prazos pagamento fornecedores > Incluir**.
-5.  Insira o código `CL` (Calendário) + a sigla criada (`RE`) = `CLRE`.
 
-O calendário da [CVC Corp/Rextur Advance](https://www.rexturadvance.com.br/calendario-de-faturamento/) e da [BRT](https://news.grupobrt.com.br/pagina/grupo-brt/calendario-de-faturamento-aereo-brt-2026/63/) de 2026 que recebemos em link tem todo o calendário específico deles, que copiaremos dentro do wintour.
+    <img width="35%" alt="image" src="https://github.com/user-attachments/assets/f5815c2a-b549-493b-a8cf-f91bcfe3f76a" />
+
+4.  Volte na aba aberta de cadastro do fornecedor > **Parametrizações > Prazos pagamento fornecedores > Incluir**.
+5.  Insira o código `CL` (Calendário) + a sigla criada (`RE`) = `CLRE`.
+  
+    <img width="45%" alt="image" src="https://github.com/user-attachments/assets/88302695-bf4f-4790-9c8f-d60a0dde2671" />
+
+
+> O calendário da [CVC Corp/Rextur Advance](https://www.rexturadvance.com.br/calendario-de-faturamento/) e da [BRT](https://news.grupobrt.com.br/pagina/grupo-brt/calendario-de-faturamento-aereo-brt-2026/63/) de 2026 que recebemos é onde tem todo o calendário específico que precisamos copiar dentro do Wintour.
+
 
 ### Configurando Prazos Padrões (Ex: BestBuy):
 Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o processo é mais simples:
@@ -122,7 +201,8 @@ Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o proc
 2.  **Cód. Prazo:** `04FS` (4 dias fora da semana).
 3.  **Conta a partir de:** `6 - Data início dos serviços` (Check-in). Salve.
 
-> **Nota:** Nesta mesma aba, você também pode cadastrar as empresas que prestam serviços para a agência (provedores de internet, aluguel, etc.) para uso futuro no financeiro.
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/03bc397f-a666-4e1a-834c-c415648f7195" />
+
 
 ---
 
@@ -130,25 +210,50 @@ Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o proc
 
 ### Vendas Integradas (Importação):
 1.  Vá em **Atendimentos/Vendas > Interfaces**.
-2.  Selecione o fornecedor *(Dica: clique na estrela para favoritar)* e clique em **Importar vendas**.
+
+2.  Selecione o fornecedor, clique na estrela para favoritar. Agora clique em cima do fornecedor e depois em **Importar vendas**.
+
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/8457185d-7465-415d-8816-0fcdcc23d580" />
+
 3.  Insira as credenciais (clique no ícone de chave para salvá-las e automatizar os próximos acessos), datas e produtos.
-4.  Selecione o tipo de fornecedor (Operadora = pacotes prontos; Consolidadora = emissão de bilhetes aéreos).
+
+    <img width="40%" alt="image" src="https://github.com/user-attachments/assets/1fad11d5-877e-436c-836b-45510ac2323f" />
+
+    > Alguns podem pedir o tipo de fornecedor (Operadora X Consolidadora) e tipo da API.
+    
+    - Importar as vendas da **BRT**, por exemplo, terá de escolher a opção `Consolidadora` e `API Sales`, para então podermos seguir para as credenciais.
+
+4.  Com as credenciais inseridas, poderá colocar de qual dia vai importar as vendas e de quais produtos. Após isso, basta clicar em `Importar.
+
+     <img width="30%" alt="image" src="https://github.com/user-attachments/assets/34f9315a-d08f-4b43-9fda-a3f4fec7054a" />
 
 ### Resolução de Problemas na Importação:
-* 🔴 **Ícone Vermelho (Erro):** Falta vincular um emissor, cadastrar uma cia aérea ou configurar câmbio. Clique na venda com erro e verifique a mensagem em vermelho no rodapé para corrigir. *(Atenção: Se cadastrar um novo emissor nesta etapa, lembre-se de configurar a comissão dele. Depois, abra a venda, aperte **[F5]** e **[F6]** para recalcular a comissão).*
-* 🟡 **Ícone Amarelo (Observação):** Exige atenção manual, como alterar o Cliente Padrão de Interface para o cliente real.
-* **Importar as vendas**: Após resolver as problemáticas e visualizar os avisos/observações, pode clicar em **Lançar Bilhetes** para importar as vendas. Caso as vendas forem importadas como Cliente Padrão de Interface de forma transitória, vá até a aba de Venda e atribua o cliente real desta Venda. Podendo criar pela *lupa* em Clientes *>* *Cadastrar Novo* ou procurar o cliente se já cadastrado.
+* 🔴 **Ícone Vermelho (Erro):** Falta vincular um emissor, cadastrar uma cia aérea ou configurar câmbio. Clique na venda com erro e verifique a mensagem em vermelho no rodapé para corrigir.
+   > *Se cadastrar um novo emissor nesta etapa, lembre-se de configurar a comissão dele. Depois, abra a venda, aperte **[F5]** e **[F6]** para recalcular a comissão.*
+* 🟡 **Ícone Amarelo (Observação):** Exige atenção manual, como por exemplo alterar o Cliente Padrão de Interface para o cliente real ou confirmação do Emissor atrelado a venda.
+* **Importar as vendas**: Após resolver as problemáticas e visualizar os avisos/observações, pode clicar em **Lançar Bilhetes** para importar as vendas.
+
+   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/1e05ef8b-c096-40a2-8d81-a16cf77837fb" />
+
+> Caso as vendas forem importadas como Cliente Padrão de Interface de forma transitória, vá até a aba de Venda e atribua o cliente real desta Venda. Podendo criar pela *lupa* em Clientes *>* *Cadastrar Novo* ou procurar o cliente se já cadastrado.
+
 
 ### Ajuste de Over da Agência:
 Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > **Configurações (ícone de lápis)** > **Over agência** e selecione a opção `1 - Prevalece sempre o que vier na interface`. Se der tela de ERROR pedindo atualizar, basta ir em **Outros** > **Atualizar Versão**.
 
 ### Vendas Manuais
 * Para vendas manuais, preencha os dados em **Atendimentos/Vendas > Vendas > Incluir [F3]**. Basta preencher todos os dados de forma fiel a venda real. Campos de calculo como comissão podem ser gerados sozinho ao salvar, se já configurou nos passos anteriores. Caso não aconteça, preencher manualmente.
+  
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/5e6d619b-6e60-48e0-a1da-fd06229dd043" />
+
 
 ### Documentação Pronta e Manual
 * **Recibos:** Na aba da venda, clique em **Resumo** para gerar documentações como notas, recibos para vendas fechadas, entre outros. 
 * **Voucher:** Na aba de venda, clique em **Voucher** para gerar a documentação para seu cliente (será sempre relacionado ao tipo de produto vendido).
 * Para emissões avulsas de documentos, vá em **Atendimentos/Vendas > Utilitários > Recibos / Voucher / Fatura (Série B)**. Caso a venda não esteja fechada, mas precisa entregar um recibo para o seu Cliente, basta preencher manualmente esse **Recibo Série B** e gerar a documentação rapidamente.
+
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/19b43b8e-22e4-468f-a8f1-5cb427f86f80" />
+
 
 ---
 
@@ -157,27 +262,59 @@ Se a taxa "Over" não estiver sendo importada, vá na interface do fornecedor > 
 A tela inicial do sistema (ou **Outros > Lembretes**) funciona como uma central de notificações operacionais (embarques, check-in, etc.).
 
 * **Configurações:** Em **Opções > Configurações**, você pode marcar/desmarcar o tipo de aviso que deseja receber e definir a antecedência dos alertas (ex: lembrar do check-in X dias antes).
+
+  <img width="15%" alt="image" src="https://github.com/user-attachments/assets/9dbbffd3-4f65-471b-b8a5-9d40aca63bf3" />
+  
 * **Relatórios Rápidos:** Ao clicar em um lembrete (ex: "Há 22 embarques em 15/04"), o sistema gera um relatório analítico completo com cliente, bilhete, localizador, status e horários dos voos.
+
+  <img width="45%"  alt="image" src="https://github.com/user-attachments/assets/9c2e4495-f107-456a-b579-80648d7ccc85" />
 
 ---
 
 ## 7. Financeiro
 
-### Contas a Pagar e Receber:
-* Acesse **Financeiro > Financeiro > A Pagar/Receber**. Selecione o período e o tipo de conta.
-* **Liquidação:** Ao selecionar uma conta na planilha e clicar no fornecedor, você pode "Detalhar valores para liquidação" (imprimir relatório) ou **Liquidar**.
+### Contas a Pagar e Receber
 
-### Lançamento de Contas Fixas (Despesas da Agência):
-1.  Clique em **Lançar > Mensais Fixas > Adicionar Mensalidade Fixa**.
-2.  Selecione o **Credor** (ex: Claro NET), a categoria da despesa (ex: provedor de internet), valor e vencimento.
-3.  **Mês de Competência:** Se o vencimento é dia 5, geralmente refere-se ao mês *Anterior ao vencimento*.
-4.  Marque os meses correspondentes para automatizar os lançamentos.
+   <img width="50%" alt="image" src="https://github.com/user-attachments/assets/5d184239-7bac-4371-a2e5-05647f47bd78" />
 
-### Abertura de Saldo & Movimento Bancário:
-Para que o sistema financeiro bata corretamente, é necessário registrar o saldo inicial das contas bancárias (feito apenas uma vez).
+* Acesse **Financeiro > Financeiro > A Pagar/Receber**. Selecione o período e o tipo de conta (A Pagar ou A Receber) > OK.
+* Aparecerá uma planilha com as contas e seus respectivos fornecedores.
+* Ao clicar em um fornecedor na planilha, uma janela abrirá com opções operacionais. Nela, você encontra as opções **"Detalhar valores para liquidação"** (versão simples ou completa), que geram relatórios focados nas contas a pagar atreladas às vendas daquele fornecedor específico, ideais para conferência antes do pagamento.
+
+  <img width="50%" alt="image" src="https://github.com/user-attachments/assets/7787da25-8819-40ca-9fb0-f4c8512af111" />
+
+### Lançamento de Contas da Agência (Fixas e Avulsas)
+Para contas da própria agência (água, luz, internet, aluguel), utilize os botões superiores:
+* **Lançar:** Para lançamentos de contas únicas/avulsas.
+* **Mensais Fixas:** Para gastos recorrentes.
+
+**Passo a passo para Mensais Fixas:**
+1.  Clique em **Mensais Fixas > Adicionar Mensalidade Fixa**.
+2.  **Credor:** Selecione o fornecedor (ex: Claro NET). Você pode buscá-lo pela lupa ou cadastrar um novo.
+3.  **Referente a:** Defina a categoria da despesa (ex: provedor de internet).
+4.  Preencha o valor e os dias de vencimento.
+5.  **Mês de Competência:** Define a qual mês o pagamento se refere.
+    * *Anterior ao vencimento:* Comum para a maioria dos boletos (ex: fatura vence dia 5, mas refere-se ao uso do mês anterior).
+    * *Do Vencimento:* Contas cobradas e pagas dentro do próprio mês.
+    * *Posterior ao Vencimento:* Pagamentos antecipados (ex: paga dia 30 para usar no mês seguinte).
+6.  Marque os meses correspondentes (geralmente todos para contas anuais) para automatizar os lançamentos e salve. O primeiro vencimento deve refletir o primeiro boleto a ser pago.
+
+    <img width="50%" alt="image" src="https://github.com/user-attachments/assets/407b0c04-c976-4dc9-9086-e605630ff720" />
+
+### Abertura de Saldo, Liquidação e Movimento Bancário
+Para que os relatórios de fluxo de caixa e o saldo bancário batam perfeitamente dentro do Wintour, é preciso seguir um fluxo contínuo.
+
+**1. Abertura de Saldo (Feito apenas uma vez por conta):**
 * Vá em **Opções > Saldo de Contas > Abertura de Saldo**.
-* Selecione o banco, a data e o saldo inicial. Salve.
-* A partir desse momento, toda conta "Liquidada" no *A Pagar/Receber* sairá daquela tela e irá para o **Movimento**, refletindo no saldo real do banco selecionado.
+* Selecione o banco, a data atual, insira o saldo real que está na conta e salve. A partir daqui, o Wintour passará a rastrear as entradas e saídas.
+
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/bfd92f6b-67f6-4fa5-b237-1493aee75253" />
+
+**2. O Fluxo de Liquidação (A Pagar -> Movimento):**
+* Quando uma conta for efetivamente paga, volte na tela **A Pagar/Receber**.
+* Selecione a conta em questão e clique em **Liquidar Selecionados**.
+* Uma tela pedirá para você escolher o **Banco da agência** (de onde o dinheiro saiu) e a **Data de pagamento**. Salve.
+* **Resultado:** A conta *sai* da aba "A Pagar/Receber" e é automaticamente transferida para a aba **Movimento**, debitando o valor do saldo real daquele banco selecionado.
 
 ---
 
@@ -185,14 +322,32 @@ Para que o sistema financeiro bata corretamente, é necessário registrar o sald
 
 Acesse **Relatórios gerenciais > Mapa de Produção** para extrair métricas de vendas através de diversos filtros.
 
-### Exemplos Úteis de Relatórios de Vendas:
-*(Configuração base: Período "X a Y" > Vendas)*
-* **Visão Geral:** Tipo: Agência (Sintética).
-* **Histórico de Compras por Cliente:** Tipo: Clientes (Analítico) > Analítico Simples > Ordenado por: Pax. *(Não exibe comissão ou emissor, ideal para enviar ao cliente).*
-* **Vendas Agrupadas por Cia Aérea:** Tipo: Clientes (Sintético) > Analítico Simples > Agrupado por: 1 - Cia Aérea/Operadora.
-* **Vendas Agrupadas por Passageiro:** Tipo: Clientes (Sintético) > Analítico Simples > Agrupado por: 17 - Nome do Pax.
+### Relatórios de Vendas e Produção
+*(Configuração base: Selecione um Período "X a Y" > Vendas)*
 
-### Relatórios Financeiros:
-* **Posição Financeira:** Acesse **Financeiro > Financeiro > Resumos > Posição Financeira**. É o relatório mais completo. Mostra tarifas, taxas, comissão, RAV, lucro bruto, reembolsos, despesas gerais e previsão de 30 dias.
-* **Fluxo de Caixa:** Exige que o sistema esteja totalmente alimentado. Mostra o saldo de cada conta bancária e se os recursos são suficientes para as previsões futuras.
-* **Receitas/Despesas (Visão Anual):** Exibe um comparativo mês a mês (com gráficos) para analisar se a receita do mês cobriu as despesas operacionais da agência.
+  <img width="40%" alt="image" src="https://github.com/user-attachments/assets/ff2e8cb5-2ae5-4ca9-a7ba-2bd84d75b956" />
+  
+* **Visão Geral da Agência:** Tipo de relatório: `Agência (Sintética)`.
+* **Histórico de Compras por Cliente:** Tipo de relatório: `Clientes (Analítico)` > `Analítico Simples` > Ordenado por: `Pax`. *(Nota: Não exibe comissão, emissor ou dados sensíveis, sendo ideal para exportar e enviar diretamente ao cliente).*
+* **Vendas Agrupadas por Cia Aérea:** Tipo de relatório: `Clientes (Sintético)` > `Analítico Simples` > Agrupado por: `1 - Cia Aérea/Operadora`.
+* **Vendas Agrupadas por Passageiro:** Tipo de relatório: `Clientes (Sintético)` > `Analítico Simples` > Agrupado por: `17 - Nome do Pax`.
+* **Filtros Adicionais:** Nas caixas inferiores, você pode restringir o relatório por produto específico, emissor, fornecedor, etc.
+
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/77a2d004-017d-4ce6-ab78-34d397c8072a" />
+
+**Outras Visões de Relatório no Mapa de Produção:**
+* **Gráficos:** No menu superior "Gráficos", é possível gerar representações visuais (em Pizza ou Barra) dos dados filtrados para apresentações gerenciais.
+* **Estat. de Aéreo:** Aba focada especificamente no volume de voos e trechos emitidos.
+
+### Relatórios Financeiros (Gerenciais)
+Esses relatórios dependem de um sistema bem alimentado com contas lançadas e vendas integradas. Acesse em: **Financeiro > Financeiro > Resumos > Selecionar o período**.
+
+* **Posição Financeira:** É o relatório mais completo do sistema. Apresenta dados separados por produtos, mostrando colunas de tarifas, taxas, comissão, incentivos, RAV e o **lucro bruto das vendas**. Também engloba reembolsos, receitas diversas, despesas administrativas e a previsão de contas a pagar/receber num horizonte de 30 dias.
+* **Fluxo de Caixa:** Demonstra a saúde momentânea da agência. Lista cada conta bancária cadastrada, seu saldo atual e cruza isso com as previsões de pagamento, alertando se o recurso atual será suficiente para honrar os compromissos futuros.
+* **Balancete:** Relatório organizado por tipo de conta contábil. É extremamente útil para exportar e enviar à contabilidade da agência, embora seja menos usado no dia a dia operacional.
+* **Receitas/Despesas (Visão Anual):** Selecione os filtros adequados (Receitas e Despesas). Ele gera um comparativo mês a mês, acompanhado de gráficos, que responde à pergunta central do negócio: *A receita gerada no mês foi suficiente para cobrir os custos de operação da agência?*
+
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/3280e743-212f-48dd-9a50-5a8fa3d97f46" />
+
+
+  
