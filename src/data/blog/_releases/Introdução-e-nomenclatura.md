@@ -1,6 +1,6 @@
 ---
 author: Matheus Laidler
-pubDatetime: 2026-04-24T15:57:52.737Z
+pubDatetime: 2026-02-25T15:57:52.737Z
 title: "Introdução ao básico para um Agente de Viagem - Parte 1"
 slug: agente-basico
 featured: false
