@@ -4,7 +4,7 @@ pubDatetime: 2026-04-23T15:57:52.737Z
 title: "Manual do Wintour para Agências de Viagem"
 slug: manual-wintour
 featured: false
-ogImage: 
+ogImage: https://avatars.githubusercontent.com/u/279110288?v=4&size=64
 description: Domine o básico da ferramenta de BackOffice com este Manual.
 ---
 
