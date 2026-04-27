@@ -144,7 +144,7 @@ Se a agência envia faturas semanais (ou em períodos específicos) para empresa
 
 * Vá em **Parametrização > Prazos Recebimentos Clientes > Incluir**.
 
-* Crie um código, como `03FS` (3 dias fora da semana). Se quiser a cada 10 dias, pode usar `10FD`.
+* Crie um código, como `03FS` (3 dias fora semana). Se quiser a cada 10 dias, pode usar `10FD`.
 
 * Defina se o prazo conta a partir da emissão, do início ou do final dos serviços.
 
@@ -208,7 +208,7 @@ Se o fornecedor tem um prazo fixo (ex: 4 dias após a emissão/check-in), o proc
 
 1.  Vá em **Parametrização > Prazos Pagamentos > Incluir**.
 
-2.  **Cód. Prazo:** `04FS` (4 dias fora da semana).
+2.  **Cód. Prazo:** `04FS` (4 dias fora semana).
 
 3.  **Conta a partir de:** `6 - Data início dos serviços` (Check-in). Salve.
 
@@ -333,9 +333,12 @@ Para contas da própria agência (água, luz, internet, aluguel), utilize os bot
 4.  Preencha o valor e os dias de vencimento.
 
 5.  **Mês de Competência:** Define a qual mês o pagamento se refere.
-    * *Anterior ao vencimento:* Comum para a maioria dos boletos (ex: fatura vence dia 5, mas refere-se ao uso do mês anterior).
-    * *Do Vencimento:* Contas cobradas e pagas dentro do próprio mês.
-    * *Posterior ao Vencimento:* Pagamentos antecipados (ex: paga dia 30 para usar no mês seguinte).
+    
+   * *Anterior ao vencimento:* Comum para a maioria dos boletos (ex: fatura vence dia 5, mas refere-se ao uso do mês anterior).
+    
+   * *Do Vencimento:* Contas cobradas e pagas dentro do próprio mês.
+    
+   * *Posterior ao Vencimento:* Pagamentos antecipados (ex: paga dia 30 para usar no mês seguinte).
     
 6.  Marque os meses correspondentes (geralmente todos para contas anuais) para automatizar os lançamentos e salve. O primeiro vencimento deve refletir o primeiro boleto a ser pago.
 
