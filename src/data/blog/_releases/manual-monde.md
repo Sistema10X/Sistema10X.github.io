@@ -112,14 +112,14 @@ Agora sim, podemos falar sobre como cadastrar pessoas jurídicas e pessoas físi
    <img width="45%" alt="image" src="https://github.com/user-attachments/assets/359d5ff0-5808-452a-ac16-2109409b6763" />
 
 **Cadastrando Clientes:**
-* Vá em **Pessoas -> Novo -> Pessoa Física** e preencha todo o formulário (sPara cliente corporativo, selecione Pessoa Jurídica).
+* Vá em **Pessoas -> Novo -> Pessoa Física** e preencha todo o formulário (para cliente corporativo, selecione Pessoa Jurídica).
 * No campo **Observação**, podemos colocar informações importantes de saúde e até preferências do cliente para CRM, como assento preferido, localização de quarto, etc.
-* Em **Dados Financeiros**, poderá configurar o cartão de crédito do cliente se achar necessário (a agência não tem obrigação de guardar dado crítico).
+* Em **Dados Financeiros**, poderá configurar o cartão de crédito do cliente se achar necessário (a agência não tem obrigação de guardar esse dado crítico).
 
    <img width="45%" alt="image" src="https://github.com/user-attachments/assets/fcdfb1e7-f288-4602-8062-c7c5dce172df" />
 
 
-> **Obs:** Você pode criar um usuário do sistema (seu funcionário) como pessoa física ou jurídica, e depois ir na aba "usuário" para configurar o login dele. Também é possível criar um cliente corporativo como pessoa jurídica; na hora da emissão, bastará selecioná-lo na venda.
+> **Obs:** Você pode criar um usuário do sistema (seu funcionário) como pessoa física ou jurídica, e depois ir na aba "usuário" para configurar o login dele.
 
 **Documentação oficial:**
 * [Como cadastrar, editar e consultar Pessoas](https://ajuda.monde.com.br/pt-BR/articles/11556520-como-cadastrar-editar-e-consultar-pessoas)
@@ -202,9 +202,9 @@ Agora você poderá configurar o método de pagamento.
    <img width="50%" alt="image" src="https://github.com/user-attachments/assets/0bde165c-8b65-47e5-8feb-3ac6a6d4ba29" />
 
 * Pode aparecer uma tela para cadastrar outros passageiros depois também, segue o mesmo padrão.
-* Após isso, ele mostrará o formulário do produto importado já preenchido com as informações da venda (como o da imagem de produto com a Air France preenchido da sessão anterior). 
+* Após isso, ele mostrará o formulário do produto importado já preenchido com as informações da venda (como o da imagem de produto com a Air France preenchido da seção anterior). 
 
-**Atenção:** Caso algum campo importante, como fornecedor e representante, esteja vazio, isso significa que ele ainda não está cadastrado no seu Monde. Então você poderá cadastrar o fornecedor ali mesmo (exemplo: uma cia aérea estrangeira não pré-cadastrada, como a Lufthansa - cadastrar com codigo IATA na aba Fornecedor).
+**Atenção:** Caso algum campo importante, como fornecedor e representante, esteja vazio, isso significa que ele ainda não está cadastrado no seu Monde. Então você poderá cadastrar o fornecedor ali mesmo (exemplo: uma cia aérea estrangeira não pré-cadastrada, como a Lufthansa - cadastrar com código IATA na aba Fornecedor).
 
 * Com tudo certo, pode dar um **OK**. Se o pagamento foi efetuado diretamente com o fornecedor, o sistema importará o financeiro junto. Se o pagamento foi com a agência, você terá que colocar o recebimento manualmente e, claro, terá que liquidar manualmente também.
 * Uma vez que essas contas estão corretamente configuradas e com forma de pagamento, podemos olhar a aba **Financeiro** dentro da venda. É nela que poderemos ver como essa venda já se ligou automaticamente com o "Contas a pagar/a receber", e é também nesta aba que podemos **Gerar Pagamento Avulso** ou **Sinal**.
@@ -246,7 +246,7 @@ As vendas que importamos já vão sempre para a aba de "Contas a Pagar/Receber" 
 
 Agora temos a mensalidade do sistema já configurada na plataforma. A ideia é sempre vir alimentando esta aba de acordo com todos os gastos fixos da agência (as relacionadas às vendas virão automaticamente).
 
-* **Para Liquidar:** Caso queira liquidar uma ou mais contas, poderá selecioná-las na tela e clicar no botão **Liquidar**. Ali, basta selecionar o banco, a data e a forma de pagamento. Caso queira liquidar uma conta na aba de edição/criação, basta colocar a data da liquidação e continuar esse memso procedimento com o banco.
+* **Para Liquidar:** Caso queira liquidar uma ou mais contas, poderá selecioná-las na tela e clicar no botão **Liquidar**. Ali, basta selecionar o banco, a data e a forma de pagamento. Caso queira liquidar uma conta na aba de edição/criação, basta colocar a data da liquidação e continuar esse mesmo procedimento com o banco.
 * Lembrando que existem mais áreas importantes do financeiro (como Demonstrativos, Fluxos, Extratos e Reembolsos) que podem ser acessados no menu superior **Financeiro**.
 
 **Documentação oficial:**
@@ -280,7 +280,7 @@ O Monde te dá vários tipos de relatórios. Inclusive, na aba superior 'Relató
    
 * **Relatório de Vendas:** Este exato *modus operandi* pode ser utilizado na aba **Vendas** também. Em Vendas, podemos configurar os filtros e as colunas da tabela para termos um relatório gerencial muito interessante sobre as emissões. Podendo exibir todas as vendas de um mês e ativando colunas como RAV, Over (incentivo), Comissão, Taxas... E, por fim, gerar o relatório ao clicar em **Imprimir**.
 
-   <img width="45%" alt="imagE" src="https://github.com/user-attachments/assets/c0785f91-8321-4672-b050-100064bb16ca" />
+   <img width="45%" alt="image" src="https://github.com/user-attachments/assets/c0785f91-8321-4672-b050-100064bb16ca" />
 
 **Relatórios do Menu:**
 * Agora que vimos o relatório construído de vendas e o de contas a pagar/receber, podemos ver um relatório específico sobre as vendas relacionadas às formas de pagamento.
