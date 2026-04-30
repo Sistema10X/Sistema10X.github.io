@@ -278,6 +278,70 @@ const nextPost =
   }
   attachCopyButtons();
 
+  /** Attach a click-to-zoom lightbox to images inside the article,
+   * letting readers see screenshots in full size without leaving the page. */
+  function attachLightbox() {
+    const article = document.getElementById("article");
+    if (!article) return;
+
+    let overlay = document.getElementById("lightbox-overlay");
+    if (!overlay) {
+      overlay = document.createElement("div");
+      overlay.id = "lightbox-overlay";
+      overlay.className = "lightbox-overlay";
+      overlay.setAttribute("role", "dialog");
+      overlay.setAttribute("aria-modal", "true");
+      overlay.setAttribute("aria-hidden", "true");
+
+      const closeBtn = document.createElement("button");
+      closeBtn.type = "button";
+      closeBtn.className = "lightbox-close";
+      closeBtn.setAttribute("aria-label", "Fechar");
+      closeBtn.innerHTML = "&times;";
+
+      const lightboxImg = document.createElement("img");
+      lightboxImg.className = "lightbox-image";
+      lightboxImg.alt = "";
+
+      overlay.appendChild(closeBtn);
+      overlay.appendChild(lightboxImg);
+      document.body.appendChild(overlay);
+
+      const close = () => {
+        overlay.classList.remove("is-open");
+        overlay.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+        lightboxImg.src = "";
+      };
+
+      overlay.addEventListener("click", e => {
+        if (e.target === overlay || e.target === closeBtn) close();
+      });
+
+      document.addEventListener("keydown", e => {
+        if (e.key === "Escape" && overlay.classList.contains("is-open")) {
+          close();
+        }
+      });
+    }
+
+    const lightboxImg = overlay.querySelector(".lightbox-image");
+    const images = Array.from(article.querySelectorAll("img"));
+    for (const img of images) {
+      if (img.dataset.lightboxAttached) continue;
+      img.dataset.lightboxAttached = "true";
+      img.addEventListener("click", e => {
+        e.preventDefault();
+        lightboxImg.src = img.currentSrc || img.src;
+        lightboxImg.alt = img.alt || "";
+        overlay.classList.add("is-open");
+        overlay.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      });
+    }
+  }
+  attachLightbox();
+
   /* Go to page start after page swap */
   document.addEventListener("astro:after-swap", () =>
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
