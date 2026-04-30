@@ -7,17 +7,19 @@
 html[data-theme="light"] {
   --background: #fdfdfd;
   --foreground: #282728;
-  --accent: #006cac;
-  --muted: #e6e6e6;
-  --border: #ece9e9;
+  --accent: #d35400;
+  --accent-secondary: #006cac;
+  --muted: #f1ece6;
+  --border: #e8e2d8;
 }
 
 html[data-theme="dark"] {
   --background: #212737;
   --foreground: #eaedf3;
   --accent: #ff6b01;
+  --accent-secondary: #4aa8ff;
   --muted: #343f60;
-  --border: #ab4b08;
+  --border: #3a4358;
 }
 
 @theme inline {
@@ -25,6 +27,7 @@ html[data-theme="dark"] {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
+  --color-accent-secondary: var(--accent-secondary);
   --color-muted: var(--muted);
   --color-border: var(--border);
 }

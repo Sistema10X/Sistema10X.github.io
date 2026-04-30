@@ -30,37 +30,38 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         target="_blank"
         href="/rss.xml"
         class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
+        aria-label="Feed RSS"
+        title="Feed RSS"
       >
         <IconRss
           width={20}
           height={20}
           class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
         />
-        <span class="sr-only">RSS Feed</span>
+        <span class="sr-only">Feed RSS</span>
       </a>
 
       <p>
-        Sistema 10X Docs é um blog focado na publicação de documentação e anotação
-        de projetos relacionados a agência de viagem e sistemas back-office.
-        Divulgando conhecimento sobre turismo, agência de viagem e gerência.
-        Projeto comunitário nascido dentro da agência 10X Viagens.
+        <strong>Sistema 10X Docs</strong> é um blog de documentação aberta sobre
+        <em>agência de viagem</em>, sistemas <em>back-office</em> e gestão de
+        turismo. Aqui consolidamos guias práticos, anotações de processos e
+        nomenclaturas do setor — projeto comunitário nascido dentro da agência
+        10X Viagens.
       </p>
       <p class="mt-2">
-        Leia os artigos do blog ou veja nosso
+        Leia os artigos abaixo ou siga o nosso
         <LinkButton
           class="underline decoration-dashed underline-offset-4 hover:text-accent"
           href="https://www.instagram.com/10xviagens/"
         >
-          INSTAGRAM
+          Instagram
         </LinkButton> e viaje conosco.
       </p>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Redes sociais:</div>
             <Socials />
           </div>
         )
@@ -76,7 +77,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
             { "border-b border-border": recentPosts.length > 0 },
           ]}
         >
-          <h2 class="text-2xl font-semibold tracking-wide">Featured</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Em destaque</h2>
           <ul>
             {featuredPosts.map(data => (
               <Card variant="h3" {...data} />
@@ -89,7 +90,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Posts recentes</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -102,7 +103,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
-        All Posts
+        Ver todos os posts
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>

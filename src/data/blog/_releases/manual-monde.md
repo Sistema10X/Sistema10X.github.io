@@ -3,7 +3,7 @@ author: Matheus Laidler
 pubDatetime: 2026-04-26T05:05:17.000Z
 title: "Manual do Monde para Agências de Viagem"
 slug: manual-monde
-featured: false
+featured: true
 description: Domine o básico da ferramenta de BackOffice com este Manual.
 tags: ['agente', 'turismo', 'backoffice', 'monde']
 ---

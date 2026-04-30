@@ -3,42 +3,45 @@ author: Matheus Laidler
 pubDatetime: 2026-02-25T15:57:52.737Z
 title: "Introdução ao básico para um Agente de Viagem - Parte 1"
 slug: agente-basico
-featured: false
+featured: true
 draft: false
 tags:
   - agente
   - turismo
   - backoffice
-description: Conheça o mundo das agências de viagem. Neste documento você verá introdução, familiarização e nomenclaturas importantes para se tornar um agente de viagem.
+description: Conheça o mundo das agências de viagem. Introdução, familiarização e nomenclaturas essenciais para se tornar um agente de viagem.
 ---
 
-> Para marinheiros de primeira viagem no mundo do agenciamento turístico
+> Para marinheiros de primeira viagem no mundo do agenciamento turístico.
 
-# Sumário
+Este é o **ponto de partida** para quem está entrando na área. Aqui você vai entender o que faz uma agência de viagem, quem são os principais fornecedores, o vocabulário do dia a dia e qual é, de fato, o papel do agente. Depois deste material, você terá base para mergulhar nos manuais de back-office específicos (Monde, Wintour, etc.).
 
-* [1. Introdução](#introdução)
-* [2. Agência de Viagem](#agência-de-viagem)
-* [3. Fornecedores e Parceiros](#fornecedores)
-* [4. Termos e Nomenclaturas](#nomenclaturas)
-* [5. Papel e Objetivo](#objetivo)
+## Sumário
 
----
-
-## 1. Introdução <a name="introdução"></a>
-
-> Conheça um novo mundo sem complicação
-
-O mundo das viagens vai muito além de simplesmente emitir uma passagem ou reservar um hotel. Trata-se de um ecossistema complexo e dinâmico, composto por dezenas de fornecedores, regras tarifárias rígidas e perfis de clientes exigentes. 
-
-Neste manual, você entenderá que o agente não é um "robô de pedidos", mas sim um **consultor especializado**. É preciso dominar processos, entender a malha de fornecedores, entender a aplicação de taxas corretamente e, acima de tudo, garantir que o passageiro tenha uma experiência fluida, segura e inesquecível, seja em uma viagem de férias ou em um compromisso de negócios crítico.
+* [1. Introdução](#1-introdução)
+* [2. Agência de Viagem](#2-agência-de-viagem)
+* [3. Fornecedores e Parceiros](#3-fornecedores-e-parceiros)
+* [4. Termos e Nomenclaturas](#4-termos-e-nomenclaturas)
+* [5. Papel e Objetivo do Agente](#5-papel-e-objetivo-do-agente)
+* [6. Próximos Passos](#6-próximos-passos)
 
 ---
 
-## 2. Agência de Viagem <a name="agência-de-viagem"></a>
+## 1. Introdução
 
-> A importância de uma agência e suas funções
+> Conheça um novo mundo sem complicação.
 
-A agência de viagem atua como a ponte oficial entre o cliente e os prestadores de serviço (companhias aéreas, hotéis, locadoras, etc.). O valor da agência reside na **curadoria, conveniência, suporte e segurança** oferecidos ao cliente. 
+O mundo das viagens vai muito além de simplesmente emitir uma passagem ou reservar um hotel. Trata-se de um ecossistema complexo e dinâmico, composto por dezenas de fornecedores, regras tarifárias rígidas e perfis de clientes exigentes.
+
+Neste manual, você entenderá que o agente não é um "robô de pedidos", mas sim um **consultor especializado**. É preciso dominar processos, entender a malha de fornecedores, aplicar taxas corretamente e, acima de tudo, garantir que o passageiro tenha uma experiência fluida, segura e inesquecível — seja em uma viagem de férias ou em um compromisso de negócios crítico.
+
+---
+
+## 2. Agência de Viagem
+
+> A importância de uma agência e suas funções.
+
+A agência de viagem atua como a **ponte oficial** entre o cliente e os prestadores de serviço (companhias aéreas, hotéis, locadoras, etc.). O valor da agência reside na **curadoria, conveniência, suporte e segurança** oferecidos ao cliente.
 
 O mercado é majoritariamente dividido em dois grandes pilares de negócios:
 
@@ -54,26 +57,26 @@ Foco em agilidade, custo-benefício, conformidade com políticas de viagens das 
 
 ---
 
-## 3. Fornecedores e Parceiros <a name="fornecedores"></a>
+## 3. Fornecedores e Parceiros
 
 > O que são, o que fazem, o que fornecem? Qual a diferença entre Consolidadora e Operadora?
 
 Para que a agência possa vender produtos globalmente sem precisar fechar contrato com cada hotel ou companhia aérea do mundo, ela utiliza intermediários especializados:
 
-* **Consolidadoras Aéreas:** Empresas que possuem contratos robustos e diretos com diversas companhias aéreas (Latam, Azul, Gol, TAP, etc.). Elas agregam e repassam tarifas (muitas vezes com descontos exclusivos) e tecnologias de emissão para as agências de viagem. Você não compra direto da companhia, compra através do portal da consolidadora.
-* **Operadoras de Turismo:** Focadas na montagem e comercialização de **pacotes completos** e prontos para revenda (aéreo + hotel + passeio). Elas intermediam e garantem a qualidade de serviços no exterior e no Brasil.
+* **Consolidadoras Aéreas:** Empresas que possuem contratos robustos e diretos com diversas companhias aéreas (Latam, Azul, Gol, TAP, etc.). Elas agregam e repassam tarifas (muitas vezes com descontos exclusivos) e tecnologias de emissão para as agências de viagem. Você não compra direto da companhia — compra através do portal da consolidadora.
+* **Operadoras de Turismo:** Focadas na montagem e comercialização de **pacotes completos** prontos para revenda (aéreo + hotel + passeio). Elas intermediam e garantem a qualidade de serviços no exterior e no Brasil.
 * **Consolidadoras Hoteleiras / Brokers (Operadoras B2B):** Focadas em fazer a ponte entre as agências e milhares de hotéis pelo mundo. Também conhecidas como *Brokers*, oferecem uma vitrine massiva de acomodações, além de disponibilizarem serviços extras como transfers, ingressos e locação de veículos de forma exclusiva para agentes (B2B).
 
-**Resumo Prático:**
-> *Precisa emitir só um voo complexo?* -> **Consolidadora.**
-> *Precisa de um pacote fechado com guia para o Egito?* -> **Operadora.**
-> *Precisa reservar apenas um hotel com tarifa de agência?* -> **Broker Hoteleiro.**
+**Resumo prático:**
+> *Precisa emitir só um voo complexo?* → **Consolidadora.**
+> *Precisa de um pacote fechado com guia para o Egito?* → **Operadora.**
+> *Precisa reservar apenas um hotel com tarifa de agência?* → **Broker Hoteleiro.**
 
 ---
 
-## 4. Termos e Nomenclaturas <a name="nomenclaturas"></a>
+## 4. Termos e Nomenclaturas
 
-> O que seria a taxa RAV? O que seria transfer? 
+> O que é a taxa RAV? O que é transfer? Conheça o vocabulário do setor.
 
 Para operar no dia a dia, é fundamental dominar o vocabulário do turismo.
 
@@ -82,16 +85,15 @@ Para operar no dia a dia, é fundamental dominar o vocabulário do turismo.
 * **Markup:** Acréscimo percentual ou valor fixo aplicado pela agência **sobre o valor líquido** repassado pelo fornecedor. É a margem de lucro em produtos não comissionados.
 * **Fee (Taxa de Serviço):** Valor cobrado do cliente pelo atendimento, emissão e consultoria. Muito comum no setor corporativo.
 * **RAV (Remuneração do Agente de Viagem):** Acréscimo inserido diretamente na emissão do bilhete aéreo (muito usado quando a companhia aérea não paga comissão padrão).
-* **DU (Documento Único):** É o código contábil/sistema usado no bilhete aéreo para identificar e cobrar a Taxa de Serviço (Fee) da agência junto à transação do cartão de crédito.
+* **DU (Documento Único):** Código contábil/sistema usado no bilhete aéreo para identificar e cobrar a Taxa de Serviço (Fee) da agência junto à transação do cartão de crédito.
 
-Nos programas de backoffice (sistemas de gestão de agências), **DU** e **RAV** geralmente andam juntos — ou até aparecem no mesmo campo/relatório — porque, na prática, eles representam a mesma coisa para o caixa da agência: a sua receita sobre a emissão. O **DU** se resume em ser o código fiscal/operacional para conseguir cobrar essa sua RAV direto no cartão de crédito do cliente, junto com a passagem.
-
+> 💡 **Dica:** Nos programas de back-office, **DU** e **RAV** geralmente andam juntos — ou até aparecem no mesmo campo/relatório — porque, na prática, representam a mesma coisa para o caixa da agência: a sua receita sobre a emissão. O **DU** é o código fiscal/operacional que permite cobrar a RAV diretamente no cartão de crédito do cliente, junto com a passagem.
 
 ### Serviços de Solo
 * **Traslado (Transfer):** Serviço de transporte pré-contratado e já pago entre pontos específicos (ex: Aeroporto → Hotel). **Não é um táxi comum.** Pode ser:
     * *Privativo:* Apenas para o seu cliente/grupo.
     * *Compartilhado/Regular:* Horários fixos e com outros passageiros.
-    * *Atenção:* O agente deve verificar as regras de bagagem e traje do motorista para garantir o padrão exigido pelo cliente.
+    * *Atenção:* O agente deve verificar as regras de bagagem e o traje do motorista para garantir o padrão exigido pelo cliente.
 * **City Tour:** Passeio turístico estruturado pela cidade para conhecer os principais bairros e pontos históricos.
 
 ### Aviação e Operacional
@@ -100,23 +102,24 @@ Nos programas de backoffice (sistemas de gestão de agências), **DU** e **RAV**
 * **Voucher:** Documento comprobatório da reserva, que o cliente apresenta ao fornecedor (hotel, transfer) para usufruir do serviço. Contém todos os detalhes do que foi pago.
 * **Regras Tarifárias:** Condições impostas pelas companhias aéreas (se permite remarcação, valor do reembolso, franquia de bagagem, regras para escolha de assentos, etc.).
 * **Câmbio e Impostos:** Vendas internacionais envolvem variação cambial, taxa de conversão diária do fornecedor e incidência de IOF (Imposto sobre Operações Financeiras).
+* **IATA:** A *International Air Transport Association* é o órgão que regulamenta o transporte aéreo mundial. As agências credenciadas recebem um **código IATA**, e cada companhia aérea também possui o seu (usado internamente nos sistemas de back-office para identificar bilhetes e rotear pagamentos).
 
 ---
 
-## 5. Papel e Objetivo <a name="objetivo"></a>
+## 5. Papel e Objetivo do Agente
 
 > Afinal de contas, qual o papel de um agente de viagens? Qual o objetivo final de uma agência?
 
 O objetivo final de uma agência é fornecer **tranquilidade, segurança e suporte** ao passageiro. O agente de viagem atua como um verdadeiro "pai/mãe" do cliente durante toda a jornada. Isso significa abraçar o papel de consultor e focar em três pilares essenciais:
 
-1.  **Pré-venda (Planejamento e Consultoria):**
+1. **Pré-venda (Planejamento e Consultoria):**
     * Entender o perfil e as preferências (ex: alergias, preferência de assento no corredor).
     * Estar atento à burocracia vital: alertar e checar necessidade de Passaporte com validade mínima de 6 meses, Vistos, Vacinas obrigatórias (como Febre Amarela) e permissões de entrada.
     * Estruturar a melhor logística de locomoção e hotelaria.
-2.  **Durante a viagem (Monitoramento e Suporte):**
+2. **Durante a viagem (Monitoramento e Suporte):**
     * Garantir que todos os vouchers, apólices de seguro viagem e documentos estejam de fácil acesso para o cliente (check-in e check-out bem alinhados).
     * Monitorar atrasos de voos, agir de forma proativa para remarcações e resolver problemas no destino em tempo real.
-3.  **Pós-venda (Fidelização):**
+3. **Pós-venda (Fidelização):**
     * Colher feedback sobre a experiência geral, a qualidade dos fornecedores (traslados, hotel, motoristas) e garantir que a viagem ocorreu como planejado.
 
 ### Portfólio de Produtos
@@ -134,9 +137,9 @@ Abaixo, os principais produtos e serviços comumente comercializados pela agênc
 | **Pacotes Completos** | Lazer | Combinação de Aéreo + Hotel + Passeios organizados por uma operadora. |
 | **Circuitos/Excursões** | Lazer | Roteiros terrestres guiados passando por múltiplas cidades/países. |
 | **Locação de Equipamentos** | Lazer | Aluguel antecipado de itens específicos (como roupas e pranchas de esqui). |
-| **Ingressos e Passeios** | Lazer | City Tours, tickets de trens, museus e parques temáticos. |
+| **Ingressos e Passeios** | Lazer | City tours, tickets de trens, museus e parques temáticos. |
 
-*Tabela em arquivo csv (Comma-Separated Values):*
+*Mesma tabela em formato CSV (Comma-Separated Values):*
 
 ```csv file="produtos.csv"
 Produto/Serviço,Categoria Principal,Descrição Resumida
@@ -149,5 +152,16 @@ Cruzeiro Marítimo,Lazer,Cabines em navios turísticos com roteiros fechados e r
 Pacotes Completos,Lazer,Combinação de Aéreo + Hotel + Passeios organizados por uma operadora.
 Circuitos/Excursões,Lazer,Roteiros terrestres guiados passando por múltiplas cidades/países.
 Locação de Equipamentos,Lazer,Aluguel antecipado de itens específicos (como roupas e pranchas de esqui).
-Ingressos e Passeios,Lazer,City Tours, tickets de trens, museus e parques temáticos.
+Ingressos e Passeios,Lazer,"City tours, tickets de trens, museus e parques temáticos."
 ```
+
+---
+
+## 6. Próximos Passos
+
+Agora que você tem a base conceitual, é hora de colocar a mão na massa em um sistema de back-office. Os manuais abaixo cobrem o operacional do dia a dia em duas das ferramentas mais utilizadas no mercado:
+
+* 📘 [**Manual do Monde para Agências de Viagem**](/posts/manual-monde) — cadastro de usuários, integrações, vendas, financeiro, relatórios e tarefas.
+* 📗 [**Manual do Wintour para Agências de Viagem**](/posts/manual-wintour) — emissores, clientes, fornecedores, regras de faturamento, vendas integradas e relatórios gerenciais.
+
+> **Dica:** Mesmo que sua agência use outro sistema, os conceitos são transferíveis — fluxo de cadastros, regras de comissionamento e fechamento financeiro seguem padrões parecidos no setor.
